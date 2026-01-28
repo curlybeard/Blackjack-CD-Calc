@@ -1,4 +1,4 @@
-**CD Calculator For Pragmatic Play live blackjack table rules:**
+**Composition Dependent Calculator For Pragmatic Play live blackjack table rules:**
 
 ```
 8 deck, S17, DAS, 1 resplit only, Hybrid ENHC (Dealer checks for BJ on ace, but not 10)
