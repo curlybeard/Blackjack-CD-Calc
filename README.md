@@ -10,7 +10,9 @@
 g++ -O3 -fopenmp blackjackCDC.cpp -o blackjackCDC
 ```
 
-**To calculate the EV of a specific deck composition:**
+**FUNCTIONALITY:**
+
+**1) To calculate the EV of a specific deck composition:**
 
 ```
 blackjackCDC EV <deck composition>
@@ -21,7 +23,7 @@ eg) Calculate EV of a full 8 deck shoe
 blackjackCDC EV 32 32 32 32 32 32 32 32 32 128
 ```
 
-**To calculate the EV of all player actions given a player hand and dealer up card:**
+**2) To calculate the EV of all player actions given a player hand and dealer up card:**
 
 ```
 blackjackCDC HAND <deck composition> <dealer up card> <player card 1> <player card 2>
