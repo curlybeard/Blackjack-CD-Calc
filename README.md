@@ -32,3 +32,8 @@ blackjackCDC HAND <deck composition> <dealer up card> <player card 1> <player ca
 eg) Calculate the optimal decision of a player hand of a 10 and 6, versus a dealer 10, starting from a full 8 deck shoe
 ```
 blackjackCDC HAND 32 32 32 32 32 32 32 32 32 128 10 10 6
+```
+
+**TIME COMPLEXITY = LINEAR** 
+
+O(V * D), where D is the number of unique deck states, and V is the number of card face values (1-10)
