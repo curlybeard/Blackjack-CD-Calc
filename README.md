@@ -10,7 +10,7 @@
 g++ -O3 -fopenmp blackjackCDC.cpp -o blackjackCDC
 ```
 
-**FUNCTIONALITY:**
+**USAGE:**
 
 **1) To calculate the EV of a specific deck composition:**
 
